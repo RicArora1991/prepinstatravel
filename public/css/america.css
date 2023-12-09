@@ -1,0 +1,85 @@
+/* Reset default margin and padding for the whole document */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply styles to the heading */
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  /* Apply styles to the list */
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Adjust alignment as needed */
+  }
+  
+  /* Apply styles to list items */
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px; /* Three items in a row with some spacing */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 350px; /* Set height for each list item */
+    overflow: hidden; /* Hide overflowing content */
+    padding: 10px;
+  }
+  
+  /* Apply styles to the heading of each item */
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  /* Apply styles to the images */
+  img {
+    width:200px;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  /* Apply styles to the location and popularity paragraphs */
+  p {
+    margin: 8px 0;
+    line-height: 1.4;
+  }
+  
+  /* Apply styles to the strong tags (Location and Popularity) */
+  strong {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Read More button styles */
+  .read-more {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .read-more:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  

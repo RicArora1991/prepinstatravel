@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paris Famous Places</title>
+  <link rel="stylesheet" href="/css/finland.css">
+</head>
+<body>
+  <h1>Finland Famous Places</h1>
+  <ul>
+    <% places.forEach(place => { %>
+      <li>
+        <h2><%= place.name %></h2>
+        <p><img src="<%= place.image %>" alt=""></p>
+        <p><%= place.info %></p>
+        <!-- <p><strong>Location:</strong> <%= place.location %></p> -->
+        <p><strong>Popularity:</strong> <%= place.popularity %></p>
+        <a href="<%= place.moreInfoUrl %>" class="read-more">Read More</a>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>

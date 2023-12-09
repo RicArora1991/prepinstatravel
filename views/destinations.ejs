@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Country Cards</title>
+    <link rel="stylesheet" href="./css/destination.css">
+</head>
+
+<body>
+    <h1 class="welcome">Welcome to Destination World!</h1>
+    <div class="container">
+        
+        <% for (let i = 0; i < countries.length; i++) { %>
+        <div class="card">
+            <h2><%= countries[i].name %></h2>
+            <img src="<%= countries[i].imageUrl %>" alt="<%= countries[i].name %>">
+            <a href="/destinations/<%=countries[i].name%>"><button>View <%=countries[i].name%></button></a>
+        </div>
+        <% } %>
+    </div>
+</body>
+
+</html>
