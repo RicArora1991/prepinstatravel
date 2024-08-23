@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rooms</title>
+    <link rel="stylesheet" href="/css/rooms.css">
+
+    <!-- Add the viewport meta tag for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+    <h1 class="roomsh1">Available Rooms in <%= location %></h1>
+    <div class="rooms-container">
+        <ul>
+            <% rooms.forEach((room, index) => { %>
+                <li>
+                    <h3><%= room.name %></h3>
+                    <p>Price per night: <%= room.price_per_night %></p>
+                    <p>Rating: <%= room.rating %></p>
+                    <img src="<%= room.image_url %>" alt="<%= room.name %> Image">
+                    <button class="rooms_addroom" data-room-details='<%- JSON.stringify(room) %>'>Add Room</button>
+                </li>
+            <% }); %>
+        </ul>
+    </div>
+
+    <!-- Modal -->
+    <div id="roomModal" class="modal">
+        <div class="modal-content">
+            <!-- <span class="close">&times;🎈</span> -->
+            <span class="close">❌</span>
+
+            <h2 id="modalRoomName"></h2>
+            <img id="modalImage" src="" alt="Room Image">
+            <p id="modalPrice"></p>
+            <p id="modalRating"></p>
+            <p id="modalDescription"></p>
+            <!-- Add other room details as needed -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const modal = document.getElementById('roomModal');
+            const closeBtn = document.querySelector('.close');
+
+            function showModal(roomDetails) {
+                console.log('hello');
+                console.log('room details', roomDetails);
+                if (roomDetails && roomDetails.name) {
+                    console.log('Updating modal content...');
+                    document.getElementById('modalRoomName').innerText = roomDetails.name;
+                    document.getElementById('modalImage').src = roomDetails.image_url;
+                    document.getElementById('modalPrice').innerText = `Price per night: ${roomDetails.price_per_night}`;
+                    document.getElementById('modalRating').innerText = `Rating: ${roomDetails.rating}`;
+                    document.getElementById('modalDescription').innerText = `Description: ${roomDetails.description}`;
+                    
+                    modal.style.display = 'block';
+                } else {
+                    console.error('Invalid roomDetails:', roomDetails);
+                }
+            }
+
+            closeBtn.addEventListener('click', () => {
+                console.log('closed');
+                modal.style.display = 'none';
+            });
+
+            const addRoomButtons = document.querySelectorAll('.rooms_addroom');
+            addRoomButtons.forEach((button, index) => {
+                button.addEventListener('click', async () => {
+                    try {
+                        const roomDetails = JSON.parse(button.getAttribute('data-room-details'));
+                        console.log('room details ',roomDetails);
+                        console.log(roomDetails.id, index, '<%= location %>');
+                        let url = `https://api.npoint.io/53a35811f6abec09035f/<%= location %>/${index}`;
+                        console.log('url is ', url);
+                        fetch(url)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error('Network response was not ok.');
+                                }
+                                return response.json();
+                            })
+                            .then(roomData => {
+                                console.log('Fetched roomData:', roomData);
+                                showModal(roomData);
+                            })
+                    } catch (error) {
+                        console.error('Error fetching room details:', error);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

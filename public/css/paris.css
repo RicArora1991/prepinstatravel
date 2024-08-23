@@ -12,7 +12,7 @@ h1 {
 }
 
 /* Apply styles to the list */
-ul {
+.commonDestUL {
   list-style: none;
   padding: 0;
   display: flex;
@@ -23,7 +23,7 @@ ul {
 }
 
 /* Apply styles to list items */
-li {
+.commonDestUL li {
   display: flex;
   flex-direction: column;
   align-items: center;

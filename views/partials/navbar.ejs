@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/index.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <!-- <li><a href="#"><div class="logocompanyname">VoyageVista<img src="https://cdn.gencraft.com/prod/user/7757edc9-3703-4d54-ade1-b9fc8489adc8/acf1bff8-e336-467b-ab43-c8324461d449/image/image1_0.jpg?Expires=1703403388&Signature=BmOvn0AxRvRt1aVZp50NjGoAw---0pG4p4kKvr2snRPi1j0jsJwxpyLstJsDgmkgS3IMHKL3qqYN5l9QsJJRTMLEJZKOYDwd5uxc2nFJ8eAktNzVmzTAY73hQfoQKDHMAnhynjX0gEr6G9ZJIXJabmHWltPF-VIzXaDC5nt38Oy5enM1K56N-0bqAFUYhb9nNMa3tCb55~8zPijGEZloTeou7SrA-fe6z82kh-0q8aPA2~2XMKmu27G-31i0KSmSVz65DUeKduZF3oMx-9YdEPUjn0q~CD-kB50bvkWHvPiWGPSE~0HGzxbRXwAFlFCY1cqdboDR744skUDRhMKNFw__&Key-Pair-Id=K3RDDB1TZ8BHT8" class="navlogoimage" alt=""></a></div> </li> -->
+        <li><a href="#"><img
+              src="https://cdn.gencraft.com/prod/user/7757edc9-3703-4d54-ade1-b9fc8489adc8/acf1bff8-e336-467b-ab43-c8324461d449/image/image1_0.jpg?Expires=1703403388&Signature=BmOvn0AxRvRt1aVZp50NjGoAw---0pG4p4kKvr2snRPi1j0jsJwxpyLstJsDgmkgS3IMHKL3qqYN5l9QsJJRTMLEJZKOYDwd5uxc2nFJ8eAktNzVmzTAY73hQfoQKDHMAnhynjX0gEr6G9ZJIXJabmHWltPF-VIzXaDC5nt38Oy5enM1K56N-0bqAFUYhb9nNMa3tCb55~8zPijGEZloTeou7SrA-fe6z82kh-0q8aPA2~2XMKmu27G-31i0KSmSVz65DUeKduZF3oMx-9YdEPUjn0q~CD-kB50bvkWHvPiWGPSE~0HGzxbRXwAFlFCY1cqdboDR744skUDRhMKNFw__&Key-Pair-Id=K3RDDB1TZ8BHT8"
+              class="navlogoimage" alt="">Travel Dreams Begin with Us</a> </li>
+        <li><a href="/">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="/destinations">Destinations</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+         
+          <form action="/rooms" method="GET">
+            <input type="text" class="navSearchbar" name="location" placeholder="Search for a location">
+            <button type="submit">Search</button>
+          </form>
+        </li>
+        <!-- <li><a href="/login">Login</a></li>
+        <li><a href="/signup">SignUp</a></li> -->
+        <% if(typeof cookies !== 'undefined'  && cookies.username){%>
+             <span>Welcome</span>
+             <li><a href='#'>Logout</a></li>
+          <% } else { %>
+            <li><a href="/login">Login1</a></li>
+        <li><a href="/signup">SignUp1</a></li>
+        <% }%>
+      </ul>
+    </nav>
+  </header>
+</body>
+
+</html>

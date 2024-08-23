@@ -1,13 +1,14 @@
 const express = require('express');
-const app = express();
-const PORT = 4000;
-const path = require('path');
-require('./db/conn');
-const signupRecord = require('./models/signupschema')
-app.set('view engine', 'ejs');
-app.use(express.static(path.join(__dirname, 'public')));
-app.use('/css', express.static(path.join(__dirname, 'public/css')));
-app.use(express.urlencoded({ extended: false }))
+const router=express.Router();
+const app=express();
+// const PORT = 4000;
+// const path = require('path');
+// require('./db/conn');
+// const signupRecord = require('./models/signupschema')
+// app.set('view engine', 'ejs');
+// app.use(express.static(path.join(__dirname, 'public')));
+// app.use('/css', express.static(path.join(__dirname, 'public/css')));
+// app.use(express.urlencoded({ extended: false }))
 const countries = [
     { name: 'India', imageUrl: 'https://i.natgeofe.com/k/42e832f5-fd48-43ff-b338-091bdf4048ca/india-tajmahal_16x9.jpg?w=1200' },
     { name: 'Japan', imageUrl: 'https://afar.brightspotcdn.com/dims4/default/55b4d7f/2147483647/strip/true/crop/1357x720+41+0/resize/1440x764!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fcf%2F8a%2F20b4a2c544a58be93512ad67084c%2Fbohler-japankk-4006.jpg' },
@@ -23,20 +24,14 @@ const countries = [
 
 ]
 
-app.get('/', async (req, res) => {
-    try {
-        res.render('index')
-    }
-    catch (error) {
-        res.render('error', { error: error.message });
 
-    }
-})
 
-app.get('/destinations', (req, res) => {
+router.get('/', (req, res) => {
     res.render('destinations', { countries: countries });
 });
-app.get('/destinations/:countryName', async (req, res) => {
+
+
+router.get('/:countryName', async (req, res) => {
     const countryName = req.params.countryName.toLowerCase();
     console.log(countryName);
     try {
@@ -74,75 +69,10 @@ app.get('/destinations/:countryName', async (req, res) => {
         const data = await response.json();
         res.render(countryName, { places: data.places });
     } catch (error) {
-        res.render('error', { error: error.message });
+     console.log(error);
     }
 });
 
-// app.get('/destinations/:countryName', async (req, res) => {
-//     const countryName=req.params.countryName;
-//     console.log(countryName);
-//     res.redirect(`/destinations/${countryName}`);
-// });
-// app.get('/destinations/paris', async (req, res) => {
-//     console.log('paris d');
 
-//   try {
-//     const fetch = await import('node-fetch');
-//     const response = await fetch.default('https://api.npoint.io/62ddf20607d363468960');
-//     if (!response.ok) {
-//       throw new Error('Failed to fetch data');
-//     }
-//     const data = await response.json();
-//     res.render('paris', { places: data.places });
-//   } catch (error) {
-//     res.render('error', { error: error.message });
-//   }
-// });
-// app.get('/destinations/Finland', async (req, res) => {
-//     console.log('finland d');
-//     try {
-//       const fetch = await import('node-fetch');
-//       const response = await fetch.default('https://api.npoint.io/d133f5fcfac970ad3c2a');
-//       if (!response.ok) {
-//         throw new Error('Failed to fetch data');
-//       }
-//       const data = await response.json();
-//       res.render('finland', { places: data.places });
-//     } catch (error) {
-//       res.render('error', { error: error.message });
-//     }
-//   });
 
-app.get('/signup', async (req, res) => {
-    try {
-        res.render('signup')
-    }
-    catch (error) {
-        res.render('error', { error: error.message });
-
-    }
-})
-app.post('/signup', async (req, res) => {
-    try {
-        // console.log(req.body);
-        const { username, email, password } = req.body;
-        console.log('details', username, email, password);
-        const signupDetails = await signupRecord({
-            username: username,
-            email: email,
-            password: password
-        })
-        // console.log('signupDetails', signupDetails);
-        const savingsignupDetails = await signupDetails.save();
-        console.log(savingsignupDetails);
-            res.send('successful')
-
-    }
-    catch (e) {
-        console.log(e);
-    }
-
-})
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+module.exports=router;

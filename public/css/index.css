@@ -12,26 +12,40 @@ html, body {
     padding: 20px;
   }
   
-  nav ul {
+  header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
   
-  nav ul li {
+ header nav ul li {
     margin-right: 20px;
   }
   
-  nav ul li:last-child {
+  header nav ul li:last-child {
     margin-right: 0;
   }
   
-  nav ul li a {
+ header nav ul li a {
     color: white;
     text-decoration: none;
   }
-  
+  header nav ul li a .navlogoimage{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+  }
+  .navSearchbar{
+    width: 300px;
+    height: 35px;
+  }
+  .logocompanyname{
+    display: flex;
+    flex-direction: column;
+  }
   /* Main styles */
   .landing {
     display: flex;

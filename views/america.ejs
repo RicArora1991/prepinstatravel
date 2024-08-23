@@ -6,13 +6,15 @@
   <link rel="stylesheet" href="/css/america.css">
 </head>
 <body>
+  <%-include('navbar') %>
+
   <h1>America Famous Places</h1>
   <ul>
     <% places.forEach(place => { %>
       <li>
         <h2><%= place.name %></h2>
         <p><img src="<%= place.image %>" alt=""></p>
-        <p><%= place.info %></p>
+      angled with a-lot of work. mnmza;[ vzbh<p><%= place.info %></p>
         <!-- <p><strong>Location:</strong> <%= place.location %></p> -->
         <p><strong>Popularity:</strong> <%= place.popularity %></p>
         <a href="<%= place.moreInfoUrl %>" class="read-more">Read More</a>

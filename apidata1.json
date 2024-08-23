@@ -1,0 +1,823 @@
+
+
+{
+    "Paris":[
+      {
+        "id": "PAR001",
+        "name": "Eiffel Palace Hotel",
+        "price_per_night": 220,
+        "rating": 4.6,
+        "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg",
+        "description": "Eiffel Palace Hotel offers a charming stay near the iconic Eiffel Tower. Enjoy cozy accommodations and easy access to Parisian attractions."
+      },
+      {
+        "id": "PAR002",
+        "name": "Ritz Paris",
+        "price_per_night": 750,
+        "rating": 4.9,
+        "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg",
+        "description": "Ritz Paris epitomizes luxury and sophistication. Indulge in opulent rooms and exceptional service amidst Paris's elegant ambiance."
+      },
+      {
+        "id": "PAR003",
+        "name": "Le Bristol Paris",
+        "price_per_night": 850,
+        "rating": 4.8,
+        "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg",
+        "description": "Le Bristol Paris offers a luxurious retreat with world-class amenities and stunning Parisian views. Experience elegance at its finest."
+      },
+      {
+              "id": "PAR004",
+          "name": "Four Seasons Hotel George V",
+          "price_per_night": 950,
+          "rating": 4.7,
+             "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+  
+      },
+    {
+              "id": "PAR005",
+              "name": "The Peninsula Paris",
+              "description": "Experience unparalleled luxury at The Peninsula Paris, a 5-star hotel with exquisite rooms, gourmet dining, and stunning views of the city.",
+              "price_per_night": 890,
+              "rating": 4.7,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR006",
+              "name": "Shangri-La Hotel",
+              "description": "Indulge in luxury and elegance at Shangri-La Hotel, offering a perfect blend of modern comforts and classic French charm near the Eiffel Tower.",
+              "price_per_night": 780,
+              "rating": 4.6,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR007",
+              "name": "Mandarin Oriental, Paris",
+              "description": "Discover luxury and sophistication at Mandarin Oriental, Paris, located in the heart of the city and known for its impeccable service and stylish accommodations.",
+              "price_per_night": 720,
+              "rating": 4.5,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR008",
+              "name": "Hotel Plaza Athénée",
+              "description": "Experience glamour and luxury at Hotel Plaza Athénée, an iconic hotel on Avenue Montaigne, offering opulent rooms and world-class dining.",
+              "price_per_night": 890,
+              "rating": 4.7,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR009",
+              "name": "The Westin Paris - Vendôme",
+              "description": "Stay in style at The Westin Paris - Vendôme, a hotel offering a perfect blend of modern comfort and historic charm near the Louvre Museum.",
+              "price_per_night": 320,
+              "rating": 4.3,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR010",
+              "name": "InterContinental Paris - Le Grand",
+              "description": "Indulge in elegance at InterContinental Paris - Le Grand, a historic hotel with stunning architecture and luxurious accommodations near the Opera Garnier.",
+              "price_per_night": 450,
+              "rating": 4.4,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR011",
+              "name": "Hôtel de Crillon",
+              "description": "Step into luxury at Hôtel de Crillon, a historic hotel on Place de la Concorde, offering a perfect blend of classic charm and modern amenities.",
+              "price_per_night": 780,
+              "rating": 4.6,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR012",
+              "name": "Hotel Lutetia",
+              "description": "Experience the art of living at Hotel Lutetia, a legendary hotel on the Left Bank known for its artistic heritage and luxurious accommodations.",
+              "price_per_night": 550,
+              "rating": 4.5,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR013",
+              "name": "Park Hyatt Paris-Vendôme",
+              "description": "Indulge in luxury and sophistication at Park Hyatt Paris-Vendôme, a 5-star hotel offering a perfect blend of comfort and style near Place Vendôme.",
+              "price_per_night": 680,
+              "rating": 4.5,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR014",
+              "name": "Le Meurice",
+              "description": "Discover timeless elegance at Le Meurice, a historic palace hotel in the heart of Paris, known for its luxurious rooms and Michelin-starred dining.",
+              "price_per_night": 800,
+              "rating": 4.7,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR015",
+              "name": "Hotel Napoleon Paris",
+              "description": "Experience classic Parisian charm at Hotel Napoleon Paris, a luxury hotel near the Champs-Élysées offering refined accommodations and personalized service.",
+              "price_per_night": 350,
+              "rating": 4.2,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR016",
+              "name": "Hôtel Vernet",
+              "description": "Discover contemporary luxury at Hôtel Vernet, a 5-star hotel near the Arc de Triomphe, offering stylish accommodations and gourmet dining.",
+              "price_per_night": 300,
+              "rating": 4.1,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR017",
+              "name": "Hôtel Balzac",
+              "description": "Experience luxury and charm at Hôtel Balzac, a 5-star hotel near the Champs-Élysées, offering elegant rooms and personalized service.",
+              "price_per_night": 290,
+              "rating": 4.0,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR018",
+              "name": "Hotel Regina Louvre",
+              "description": "Step into history at Hotel Regina Louvre, a 5-star hotel with a prime location near the Louvre Museum, offering classic elegance and modern comfort.",
+              "price_per_night": 420,
+              "rating": 4.3,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR019",
+              "name": "Hôtel National Des Arts et Métiers",
+              "description": "Discover modern luxury at Hôtel National Des Arts et Métiers, a contemporary hotel offering stylish accommodations and a vibrant atmosphere.",
+              "price_per_night": 230,
+              "rating": 4.0,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          },
+          {
+              "id": "PAR020",
+              "name": "Le Royal Monceau - Raffles Paris",
+              "description": "Experience avant-garde luxury at Le Royal Monceau - Raffles Paris, a 5-star hotel with contemporary design, art, and a vibrant atmosphere.",
+              "price_per_night": 900,
+              "rating": 4.8,
+              "image_url": "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/813e699e-02d6-4c5e-b6a3-48854a652c70/Best+Hotels+in+Paris+with+a+View+-+Shangri-La+Paris.jpg"
+          }
+  ] 
+    ,
+    "Mumbai":[
+      
+          {
+        "id": "MUM001",
+        "name": "The Taj Mahal Palace",
+        "price_per_night": 300,
+        "rating": 4.8,
+        "image_url": "https://example.com/mumbai/taj_mahal_palace.jpg",
+        "description": "The Taj Mahal Palace stands as an iconic landmark offering unparalleled luxury and historical significance. Nestled by the Arabian Sea, it exudes grandeur and refined elegance."
+      },
+      {
+        "id": "MUM002",
+        "name": "The Oberoi Mumbai",
+        "price_per_night": 250,
+        "rating": 4.5,
+        "image_url": "https://example.com/mumbai/oberoi_mumbai.jpg",
+        "description": "The Oberoi Mumbai boasts luxury and sophistication, providing stunning views of the city skyline and impeccable service. It's a blend of modernity and timeless elegance."
+      },
+      {
+        "id": "MUM003",
+        "name": "Four Seasons Hotel Mumbai",
+        "price_per_night": 320,
+        "rating": 4.7,
+        "image_url": "https://example.com/mumbai/four_seasons_mumbai.jpg",
+        "description": "The Four Seasons Hotel Mumbai offers a luxurious stay with impeccable service, world-class dining, and breathtaking views of the cityscape. Experience ultimate comfort and indulgence."
+      },
+      {
+        "id": "MUM004",
+        "name": "Grand Hyatt Mumbai Hotel",
+        "price_per_night": 280,
+        "rating": 4.6,
+        "image_url": "https://example.com/mumbai/grand_hyatt_mumbai.jpg",
+        "description": "Grand Hyatt Mumbai Hotel is a haven of tranquility amidst the bustling city, offering modern amenities, lush gardens, and a serene ambiance for an unforgettable stay."
+      },
+      {
+        "id": "MUM005",
+        "name": "The St. Regis Mumbai",
+        "price_per_night": 350,
+        "rating": 4.7,
+        "image_url": "https://example.com/mumbai/st_regis_mumbai.jpg",
+        "description": "The St. Regis Mumbai embodies sophistication and luxury, combining bespoke service with contemporary design. Indulge in world-class facilities and stunning views."
+      },
+      {
+        "id": "MUM006",
+        "name": "JW Marriott Mumbai Juhu",
+        "price_per_night": 310,
+        "rating": 4.6,
+        "image_url": "https://example.com/mumbai/jw_marriott_juhu.jpg",
+        "description": "JW Marriott Mumbai Juhu offers a blend of elegance and comfort, located by the sea with breathtaking vistas. Immerse yourself in luxury and exceptional service."
+      },
+       {
+        "id": "MUM007",
+        "name": "ITC Maratha, Mumbai",
+        "price_per_night": 270,
+        "rating": 4.5,
+        "image_url": "https://example.com/mumbai/itc_maratha_mumbai.jpg",
+        "description": "ITC Maratha, Mumbai, is an epitome of luxury, blending Indian heritage with contemporary elegance. Experience impeccable hospitality and an ambiance of sheer opulence."
+      },
+      {
+        "id": "MUM008",
+        "name": "Trident Nariman Point",
+        "price_per_night": 290,
+        "rating": 4.6,
+        "image_url": "https://example.com/mumbai/trident_nariman_point.jpg",
+        "description": "Trident Nariman Point offers stunning views of the Arabian Sea, embodying timeless elegance and modern amenities. Revel in comfort and exceptional service by the sea."
+      },
+      {
+        "id": "MUM009",
+        "name": "The Leela Mumbai",
+        "price_per_night": 300,
+        "rating": 4.7,
+        "image_url": "https://example.com/mumbai/leela_mumbai.jpg",
+        "description": "The Leela Mumbai boasts luxurious accommodation, lush greenery, and world-class dining. Enjoy personalized service and opulent comfort in a serene environment."
+      },
+      {
+        "id": "MUM010",
+        "name": "Sofitel Mumbai BKC",
+        "price_per_night": 260,
+        "rating": 4.5,
+        "image_url": "https://example.com/mumbai/sofitel_mumbai_bkc.jpg",
+        "description": "Sofitel Mumbai BKC is synonymous with French luxury and Indian hospitality, offering a blend of sophistication, style, and warm service for an indulgent stay."
+      },
+      {
+        "id": "MUM011",
+        "name": "Taj Lands End, Mumbai",
+        "price_per_night": 320,
+        "rating": 4.6,
+        "image_url": "https://example.com/mumbai/taj_lands_end_mumbai.jpg",
+        "description": "Taj Lands End, Mumbai, is perched along the Arabian Sea, offering stunning sea views and an oasis of tranquility. Experience unparalleled luxury and comfort."
+      },
+      {
+        "id": "MUM012",
+        "name": "Novotel Mumbai Juhu Beach",
+        "price_per_night": 230,
+        "rating": 4.4,
+        "image_url": "https://example.com/mumbai/novotel_juhu_beach.jpg",
+        "description": "Novotel Mumbai Juhu Beach is a haven by the Arabian Sea, blending beachfront relaxation with contemporary comfort. Enjoy a serene getaway with modern amenities."
+      },
+     
+      {
+        "id": "MUM013",
+        "name": "InterContinental Marine Drive",
+        "price_per_night": 300,
+        "rating": 4.5,
+        "image_url": "https://example.com/mumbai/intercontinental_marine_drive.jpg",
+        "description": "InterContinental Marine Drive offers an iconic location overlooking the Arabian Sea. Experience refined luxury, breathtaking views, and world-class service."
+      },
+      {
+        "id": "MUM014",
+        "name": "Courtyard by Marriott Mumbai International Airport",
+        "price_per_night": 250,
+        "rating": 4.4,
+        "image_url": "https://example.com/mumbai/courtyard_marriott_international_airport.jpg",
+        "description": "Courtyard by Marriott Mumbai International Airport blends convenience with comfort. Enjoy modern amenities and exceptional service near the airport."
+      },
+      {
+        "id": "MUM015",
+        "name": "Hilton Mumbai International Airport",
+        "price_per_night": 260,
+        "rating": 4.3,
+        "image_url": "https://example.com/mumbai/hilton_international_airport.jpg",
+        "description": "Hilton Mumbai International Airport offers contemporary elegance and world-class hospitality. Enjoy a relaxing stay close to the airport with premium amenities."
+      },
+      {
+        "id": "MUM016",
+        "name": "Holiday Inn Mumbai International Airport",
+        "price_per_night": 220,
+        "rating": 4.2,
+        "image_url": "https://example.com/mumbai/holiday_inn_international_airport.jpg",
+        "description": "Holiday Inn Mumbai International Airport is an ideal blend of comfort and convenience. Experience warm hospitality and modern comforts for a pleasant stay."
+      },
+      {
+        "id": "MUM017",
+        "name": "Hyatt Regency Mumbai",
+        "price_per_night": 280,
+        "rating": 4.4,
+        "image_url": "https://example.com/mumbai/hyatt_regency_mumbai.jpg",
+        "description": "Hyatt Regency Mumbai offers a seamless blend of luxury and comfort. Experience world-class service and contemporary amenities for a memorable stay."
+      },
+      {
+        "id": "MUM018",
+        "name": "Ramada Plaza by Wyndham Palm Grove",
+        "price_per_night": 240,
+        "rating": 4.3,
+        "image_url": "https://example.com/mumbai/ramada_palm_grove.jpg",
+        "description": "Ramada Plaza by Wyndham Palm Grove is an oasis of tranquility near Juhu Beach. Enjoy a relaxed stay with serene surroundings and modern conveniences."
+      },
+      {
+        "id": "MUM019",
+        "name": "The Lalit Mumbai",
+        "price_per_night": 290,
+        "rating": 4.5,
+        "image_url": "https://example.com/mumbai/lalit_mumbai.jpg",
+        "description": "The Lalit Mumbai is an epitome of luxury and comfort. Enjoy opulent interiors, impeccable service, and world-class amenities during your stay."
+      },
+      {
+        "id": "MUM020",
+        "name": "Hotel Sahara Star",
+        "price_per_night": 270,
+        "rating": 4.4,
+        "image_url": "https://example.com/mumbai/sahara_star.jpg",
+        "description": "Hotel Sahara Star offers a unique experience with its distinctive architecture and world-class amenities. Enjoy opulent interiors and exceptional hospitality during your stay."
+      }
+  ]
+  
+    ,
+    "Dubai":[
+      {
+        "id": "DXB001",
+        "name": "Burj Al Arab Jumeirah",
+        "price_per_night": 800,
+        "rating": 4.9,
+        "image_url": "https://example.com/dubai/burj_al_arab.jpg",
+        "description": "Experience unparalleled luxury at Burj Al Arab Jumeirah, an iconic sail-shaped hotel. Indulge in opulent suites, exquisite dining, and breathtaking views of the Arabian Gulf."
+      },
+      {
+        "id": "DXB002",
+        "name": "Jumeirah Emirates Towers",
+        "price_per_night": 500,
+        "rating": 4.7,
+        "image_url": "https://example.com/dubai/emirates_towers.jpg",
+        "description": "Jumeirah Emirates Towers offers sophistication and style in the heart of Dubai. Enjoy luxurious accommodations, fine dining, and impeccable service."
+      },
+      {
+        "id": "DXB003",
+        "name": "Atlantis The Palm",
+        "price_per_night": 400,
+        "rating": 4.6,
+        "image_url": "https://example.com/dubai/atlantis_the_palm.jpg",
+        "description": "Atlantis The Palm, a stunning resort at the crescent of Palm Jumeirah, offers underwater suites, an impressive water park, and lavish dining experiences."
+      },
+      {
+        "id": "DXB004",
+        "name": "Armani Hotel Dubai",
+        "price_per_night": 600,
+        "rating": 4.8,
+        "image_url": "https://example.com/dubai/armani_hotel.jpg",
+        "description": "Armani Hotel Dubai embodies sophistication with its sleek design, high-end amenities, and panoramic views, offering an exclusive lifestyle experience."
+      },
+      {
+        "id": "DXB005",
+        "name": "JW Marriott Marquis Hotel Dubai",
+        "price_per_night": 350,
+        "rating": 4.6,
+        "image_url": "https://example.com/dubai/jw_marriott_marquis.jpg",
+        "description": "The JW Marriott Marquis stands tall as one of the world's tallest hotels, featuring opulent rooms, fine dining options, and a serene spa experience."
+      },
+      {
+          "id": "DXB006",
+          "name": "Raffles Dubai",
+          "description": "Luxury hotel located in the heart of Dubai. Offering exquisite rooms and top-notch amenities.",
+          "price_per_night": 450,
+          "rating": 4.7,
+          "image_url": "https://example.com/dubai/raffles_dubai.jpg"
+      },
+      {
+          "id": "DXB007",
+          "name": "Four Seasons Resort Dubai at Jumeirah Beach",
+          "description": "Experience unparalleled luxury and stunning views at this beachfront resort.",
+          "price_per_night": 550,
+          "rating": 4.8,
+          "image_url": "https://example.com/dubai/four_seasons_jumeirah.jpg"
+      },
+      {
+          "id": "DXB008",
+          "name": "Madinat Jumeirah",
+          "description": "A unique resort showcasing the best of Arabian architecture, with beautiful views of the sea and the city.",
+          "price_per_night": 380,
+          "rating": 4.6,
+          "image_url": "https://example.com/dubai/madinat_jumeirah.jpg"
+      },
+      {
+          "id": "DXB009",
+          "name": "Palazzo Versace Dubai",
+          "description": "Step into a world of elegance and luxury at this fashion-inspired hotel on the Dubai Creek.",
+          "price_per_night": 420,
+          "rating": 4.7,
+          "image_url": "https://example.com/dubai/palazzo_versace.jpg"
+      },
+      {
+          "id": "DXB010",
+          "name": "W Dubai - The Palm",
+          "description": "A vibrant and stylish retreat on the iconic Palm Jumeirah offering a mix of luxury and entertainment.",
+          "price_per_night": 480,
+          "rating": 4.7,
+          "image_url": "https://example.com/dubai/w_dubai_palm.jpg"
+      },
+      {
+          "id": "DXB011",
+          "name": "Grosvenor House, a Luxury Collection Hotel, Dubai",
+          "description": "Experience sophistication and luxury at this renowned hotel in the heart of Dubai Marina.",
+          "price_per_night": 400,
+          "rating": 4.6,
+          "image_url": "https://example.com/dubai/grosvenor_house.jpg"
+      },
+      {
+          "id": "DXB012",
+          "name": "Ritz-Carlton Dubai",
+          "description": "An iconic beachfront resort offering impeccable service, luxurious accommodations, and breathtaking views.",
+          "price_per_night": 420,
+          "rating": 4.8,
+          "image_url": "https://example.com/dubai/ritz_carlton_dubai.jpg"
+      },
+      {
+          "id": "DXB013",
+          "name": "The Ritz-Carlton, Dubai International Financial Centre",
+          "description": "Discover refined luxury in the heart of Dubai's financial district with impeccable service and amenities.",
+          "price_per_night": 390,
+          "rating": 4.7,
+          "image_url": "https://example.com/dubai/ritz_carlton_difc.jpg"
+      },
+      {
+          "id": "DXB014",
+          "name": "Address Boulevard",
+          "description": "A sophisticated hotel offering elegant accommodations, fine dining, and panoramic views of the city.",
+          "price_per_night": 440,
+          "rating": 4.8,
+          "image_url": "https://example.com/dubai/address_boulevard.jpg"
+      },
+      {
+          "id": "DXB015",
+          "name": "The Westin Dubai Mina Seyahi Beach Resort & Marina",
+          "description": "A beachfront resort with a relaxing atmosphere, offering luxurious rooms and a range of dining options.",
+          "price_per_night": 360,
+          "rating": 4.6,
+          "image_url": "https://example.com/dubai/westin_mina_seyahi.jpg"
+      },
+      {
+          "id": "DXB016",
+          "name": "One&Only Royal Mirage",
+          "description": "Experience Arabian luxury at its finest with stunning architecture and lush gardens.",
+          "price_per_night": 500,
+          "rating": 4.7,
+          "image_url": "https://example.com/dubai/one_and_only_royal_mirage.jpg"
+      },
+      {
+          "id": "DXB017",
+          "name": "Jumeirah Al Naseem",
+          "description": "A modern and luxurious beachfront resort offering a perfect blend of contemporary style and Arabian traditions.",
+          "price_per_night": 420,
+          "rating": 4.6,
+          "image_url": "https://example.com/dubai/jumeirah_al_naseem.jpg"
+      },
+      {
+          "id": "DXB018",
+          "name": "InterContinental Dubai Festival City",
+          "description": "Located along the Dubai Creek, this hotel offers contemporary luxury and breathtaking views of the city skyline.",
+          "price_per_night": 340,
+          "rating": 4.5,
+          "image_url": "https://example.com/dubai/intercontinental_festival_city.jpg"
+      },
+      {
+          "id": "DXB019",
+          "name": "Anantara The Palm Dubai Resort",
+          "description": "Escape to a tropical paradise with overwater villas and a range of leisure activities on the Palm Jumeirah.",
+          "price_per_night": 410,
+          "rating": 4.7,
+          "image_url": "https://example.com/dubai/anantara_the_palm.jpg"
+      },
+      {
+          "id": "DXB020",
+          "name": "Waldorf Astoria Dubai Palm Jumeirah",
+          "description": "Indulge in opulence with a stay at this iconic hotel situated on the stunning Palm Jumeirah.",
+          "price_per_night": 480,
+          "rating": 4.8,
+          "image_url": "https://example.com/dubai/waldorf_astoria_palm_jumeirah.jpg"
+      }
+  ]
+  ,
+    "Bangkok": [
+      {
+              "id": "BKK001",
+              "name": "Mandarin Oriental, Bangkok",
+              "description": "A legendary hotel by the Chao Phraya River, offering luxury and timeless elegance.",
+              "price_per_night": 250,
+              "rating": 4.5,
+              "image_url": "https://example.com/bangkok/mandarin_oriental_bangkok.jpg"
+          },
+          {
+              "id": "BKK002",
+              "name": "The Peninsula Bangkok",
+              "description": "A riverside oasis with panoramic views of the city, combining modern luxury with Thai charm.",
+              "price_per_night": 280,
+              "rating": 4.6,
+              "image_url": "https://example.com/bangkok/peninsula_bangkok.jpg"
+          },
+          {
+              "id": "BKK003",
+              "name": "Shangri-La Hotel, Bangkok",
+              "description": "A sanctuary in the heart of the city, featuring luxurious accommodations and lush tropical gardens.",
+              "price_per_night": 230,
+              "rating": 4.4,
+              "image_url": "https://example.com/bangkok/shangri_la_bangkok.jpg"
+          },
+          {
+              "id": "BKK004",
+              "name": "Banyan Tree Bangkok",
+              "description": "An urban retreat with a rooftop bar offering panoramic city views and luxurious spa experiences.",
+              "price_per_night": 300,
+              "rating": 4.7,
+              "image_url": "https://example.com/bangkok/banyan_tree_bangkok.jpg"
+          },
+          {
+              "id": "BKK005",
+              "name": "The Sukhothai Bangkok",
+              "description": "A blend of traditional Thai architecture and modern luxury, set amidst serene gardens.",
+              "price_per_night": 320,
+              "rating": 4.6,
+              "image_url": "https://example.com/bangkok/sukhothai_bangkok.jpg"
+          },
+          {
+              "id": "BKK006",
+              "name": "SO Sofitel Bangkok",
+              "description": "A stylish and avant-garde hotel with a blend of French elegance and Thai culture.",
+              "price_per_night": 280,
+              "rating": 4.5,
+              "image_url": "https://example.com/bangkok/so_sofitel_bangkok.jpg"
+          },
+          {
+              "id": "BKK007",
+              "name": "InterContinental Bangkok",
+              "description": "Located in the heart of the city, offering luxurious accommodations and world-class dining.",
+              "price_per_night": 260,
+              "rating": 4.4,
+              "image_url": "https://example.com/bangkok/intercontinental_bangkok.jpg"
+          },
+          {
+              "id": "BKK008",
+              "name": "The Athenee Hotel, a Luxury Collection Hotel",
+              "description": "A luxury hotel blending Thai charm with modern sophistication, featuring lavish amenities.",
+              "price_per_night": 300,
+              "rating": 4.7,
+              "image_url": "https://example.com/bangkok/athenee_bangkok.jpg"
+          },
+          {
+              "id": "BKK009",
+              "name": "Anantara Siam Bangkok Hotel",
+              "description": "An urban retreat with lush gardens, offering a peaceful escape in the heart of the city.",
+              "price_per_night": 290,
+              "rating": 4.6,
+              "image_url": "https://example.com/bangkok/anantara_siam_bangkok.jpg"
+          },
+          {
+              "id": "BKK010",
+              "name": "Centara Grand at CentralWorld",
+              "description": "A luxury hotel connected to one of Bangkok's largest shopping complexes, offering convenience and style.",
+              "price_per_night": 270,
+              "rating": 4.5,
+              "image_url": "https://example.com/bangkok/centara_grand_centralworld.jpg"
+          },
+          {
+              "id": "BKK011",
+              "name": "Marriott Marquis Queen's Park",
+              "description": "A modern hotel with spacious accommodations, featuring a range of dining options and amenities.",
+              "price_per_night": 280,
+              "rating": 4.6,
+              "image_url": "https://example.com/bangkok/marriott_marquis_queens_park.jpg"
+          },
+          {
+              "id": "BKK012",
+              "name": "Pullman Bangkok Hotel G",
+              "description": "A stylish hotel with contemporary design, offering comfort and convenience in the heart of the city.",
+              "price_per_night": 250,
+              "rating": 4.4,
+              "image_url": "https://example.com/bangkok/pullman_bangkok_hotel_g.jpg"
+          },
+          {
+              "id": "BKK013",
+              "name": "Grand Hyatt Erawan Bangkok",
+              "description": "An iconic hotel with a central location, known for its elegance and impeccable service.",
+              "price_per_night": 300,
+              "rating": 4.5,
+              "image_url": "https://example.com/bangkok/grand_hyatt_erawan_bangkok.jpg"
+          },
+          {
+              "id": "BKK014",
+              "name": "AVANI Riverside Bangkok Hotel",
+              "description": "A riverside hotel with stunning views of the city skyline, offering modern comforts and relaxation.",
+              "price_per_night": 260,
+              "rating": 4.4,
+              "image_url": "https://example.com/bangkok/avani_riverside_bangkok.jpg"
+          },
+          {
+              "id": "BKK015",
+              "name": "Amara Bangkok",
+              "description": "A contemporary hotel with stylish design, offering a blend of comfort and sophistication.",
+              "price_per_night": 240,
+              "rating": 4.3,
+              "image_url": "https://example.com/bangkok/amara_bangkok.jpg"
+          },
+          {
+              "id": "BKK016",
+              "name": "Siam Kempinski Hotel Bangkok",
+              "description": "A luxurious hotel in the heart of the city, known for its opulent accommodations and world-class service.",
+              "price_per_night": 320,
+              "rating": 4.7,
+              "image_url": "https://example.com/bangkok/kempinski_bangkok.jpg"
+          },
+          {
+              "id": "BKK017",
+              "name": "Hansar Bangkok Hotel",
+              "description": "A boutique hotel offering contemporary luxury and personalized service in a vibrant neighborhood.",
+              "price_per_night": 270,
+              "rating": 4.5,
+              "image_url": "https://example.com/bangkok/hansar_bangkok.jpg"
+          },
+          {
+              "id": "BKK018",
+              "name": "W Bangkok",
+              "description": "A trendy and vibrant hotel with modern design, offering a dynamic and energetic atmosphere.",
+              "price_per_night": 280,
+              "rating": 4.5,
+              "image_url": "https://example.com/bangkok/w_bangkok.jpg"
+          },
+          {
+              "id": "BKK019",
+              "name": "Eastin Grand Hotel Sathorn",
+              "description": "A contemporary hotel with panoramic city views, offering comfort and convenience for business and leisure travelers.",
+              "price_per_night": 250,
+              "rating": 4.4,
+              "image_url": "https://example.com/bangkok/eastin_grand_sathorn.jpg"
+          },
+          {
+              "id": "BKK020",
+              "name": "The Landmark Bangkok",
+              "description": "A centrally located hotel with modern amenities, offering a comfortable and convenient stay in the city.",
+              "price_per_night": 270,
+              "rating": 4.5,
+              "image_url": "https://example.com/bangkok/landmark_bangkok.jpg"
+          }
+      ]
+  ,
+    "Goa": [
+          {
+              "id": "GOI001",
+              "name": "Taj Exotica Resort & Spa",
+              "description": "Experience luxury at its best with Taj Exotica Resort & Spa, offering a tranquil stay amidst tropical gardens and pristine beaches.",
+              "price_per_night": 180,
+              "rating": 4.7,
+              "image_url": "https://example.com/goa/taj_exotica_resort.jpg"
+          },
+          {
+              "id": "GOI002",
+              "name": "Grand Hyatt Goa",
+              "description": "Indulge in sophistication at Grand Hyatt Goa, a resort that combines elegance with modern amenities and breathtaking views.",
+              "price_per_night": 220,
+              "rating": 4.5,
+              "image_url": "https://example.com/goa/grand_hyatt_goa.jpg"
+          },
+          {
+              "id": "GOI003",
+              "name": "The Leela Goa",
+              "description": "Escape to The Leela Goa, a luxurious resort known for its beautiful lagoon-facing rooms, spa, and authentic dining experiences.",
+              "price_per_night": 200,
+              "rating": 4.6,
+              "image_url": "https://example.com/goa/leela_goa.jpg"
+          },
+          {
+              "id": "GOI004",
+              "name": "Alila Diwa Goa",
+              "description": "Discover tranquility at Alila Diwa Goa, a resort offering a blend of contemporary design, lush landscapes, and personalized services.",
+              "price_per_night": 250,
+              "rating": 4.6,
+              "image_url": "https://example.com/goa/alila_diwa_goa.jpg"
+          },
+          {
+              "id": "GOI005",
+              "name": "Park Hyatt Goa Resort and Spa",
+              "description": "Experience luxury and serenity at Park Hyatt Goa Resort and Spa, featuring elegant rooms, exquisite dining, and a rejuvenating spa.",
+              "price_per_night": 240,
+              "rating": 4.5,
+              "image_url": "https://example.com/goa/park_hyatt_goa.jpg"
+          },
+          {
+              "id": "GOI006",
+              "name": "Vivanta Goa, Panaji",
+              "description": "Stay in style at Vivanta Goa, Panaji, a hotel offering a vibrant and energetic atmosphere in the heart of Goa's capital.",
+              "price_per_night": 200,
+              "rating": 4.4,
+              "image_url": "https://example.com/goa/vivanta_goa_panaji.jpg"
+          },
+          {
+              "id": "GOI007",
+              "name": "Cidade de Goa",
+              "description": "Experience Goan hospitality at its best at Cidade de Goa, a beachfront resort known for its warm ambiance and excellent amenities.",
+              "price_per_night": 190,
+              "rating": 4.3,
+              "image_url": "https://example.com/goa/cidade_de_goa.jpg"
+          },
+          {
+              "id": "GOI008",
+              "name": "W Goa",
+              "description": "Immerse yourself in the vibrant and trendy atmosphere of W Goa, a hotel known for its contemporary design and lively entertainment.",
+              "price_per_night": 280,
+              "rating": 4.6,
+              "image_url": "https://example.com/goa/w_goa.jpg"
+          },
+          {
+              "id": "GOI009",
+              "name": "Hyatt Centric Candolim Goa",
+              "description": "Experience the perfect blend of luxury and local culture at Hyatt Centric Candolim Goa, located near the famous Candolim Beach.",
+              "price_per_night": 210,
+              "rating": 4.4,
+              "image_url": "https://example.com/goa/hyatt_centric_candolim.jpg"
+          },
+          {
+              "id": "GOI010",
+              "name": "Hard Rock Hotel Goa",
+              "description": "Rock and roll in style at Hard Rock Hotel Goa, a music-themed resort offering a unique and lively atmosphere for guests.",
+              "price_per_night": 230,
+              "rating": 4.5,
+              "image_url": "https://example.com/goa/hard_rock_hotel_goa.jpg"
+          },
+          {
+              "id": "GOI011",
+              "name": "Novotel Goa Dona Sylvia Resort",
+              "description": "Enjoy a relaxing stay at Novotel Goa Dona Sylvia Resort, a beachfront property known for its comfortable accommodations and serene surroundings.",
+              "price_per_night": 180,
+              "rating": 4.2,
+              "image_url": "https://example.com/goa/novotel_dona_sylvia.jpg"
+          },
+          {
+              "id": "GOI012",
+              "name": "Resort Rio",
+              "description": "Experience luxury and Goan hospitality at Resort Rio, offering a range of amenities and a picturesque setting along the Baga River.",
+              "price_per_night": 190,
+              "rating": 4.3,
+              "image_url": "https://example.com/goa/resort_rio.jpg"
+          },
+          {
+              "id": "GOI013",
+              "name": "Taj Holiday Village Resort & Spa",
+              "description": "Escape to Taj Holiday Village Resort & Spa, a beachfront paradise offering a perfect blend of tranquility and luxury in Goa.",
+              "price_per_night": 220,
+              "rating": 4.4,
+              "image_url": "https://example.com/goa/taj_holiday_village.jpg"
+          },
+          {
+              "id": "GOI014",
+              "name": "The Lalit Golf & Spa Resort Goa",
+              "description": "Indulge in luxury and wellness at The Lalit Golf & Spa Resort Goa, known for its golf course, spa, and scenic views.",
+              "price_per_night": 250,
+              "rating": 4.5,
+              "image_url": "https://example.com/goa/lalit_golf_spa_goa.jpg"
+          },
+          {
+              "id": "GOI015",
+              "name": "Goa Marriott Resort & Spa",
+              "description": "Experience a perfect blend of luxury and Goan charm at Goa Marriott Resort & Spa, offering stunning views and world-class amenities.",
+              "price_per_night": 260,
+              "rating": 4.6,
+              "image_url": "https://example.com/goa/marriott_goa.jpg"
+          },
+          {
+              "id": "GOI016",
+              "name": "Radisson Blu Resort Goa Cavelossim Beach",
+              "description": "Relax and rejuvenate at Radisson Blu Resort Goa Cavelossim Beach, a beachfront resort with modern amenities and scenic surroundings.",
+              "price_per_night": 210,
+              "rating": 4.4,
+              "image_url": "https://example.com/goa/radisson_cavelossim.jpg"
+          },
+          {
+              "id": "GOI017",
+              "name": "The Zuri White Sands, Goa Resort & Casino",
+              "description": "Experience excitement and entertainment at The Zuri White Sands, Goa Resort & Casino, a beachfront property with a vibrant atmosphere.",
+              "price_per_night": 270,
+              "rating": 4.5,
+              "image_url": "https://example.com/goa/zuri_white_sands.jpg"
+          },
+          {
+              "id": "GOI018",
+              "name": "Planet Hollywood Beach Resort Goa",
+              "description": "Step into the world of glamour and entertainment at Planet Hollywood Beach Resort Goa, a celebrity-themed resort by the beach.",
+              "price_per_night": 230,
+              "rating": 4.4,
+              "image_url": "https://example.com/goa/planet_hollywood_goa.jpg"
+          },
+          {
+              "id": "GOI019",
+              "name": "Bay 15, Goa",
+              "description": "Experience a tranquil and laid-back atmosphere at Bay 15, Goa, a boutique beachfront property with personalized service.",
+              "price_per_night": 180,
+              "rating": 4.3,
+              "image_url": "https://example.com/goa/bay_15_goa.jpg"
+          },
+          {
+              "id": "GOI020",
+              "name": "Le Méridien Goa, Calangute",
+              "description": "Discover contemporary luxury at Le Méridien Goa, Calangute, offering modern amenities and a vibrant atmosphere near Calangute Beach.",
+              "price_per_night": 200,
+              "rating": 4.4,
+              "image_url": "https://example.com/goa/le_meridien_calangute.jpg"
+          }
+      ]
+  
+  }
+  

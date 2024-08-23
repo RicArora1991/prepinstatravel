@@ -6,8 +6,10 @@
   <link rel="stylesheet" href="/css/paris.css">
 </head>
 <body>
+  <%-include('partials/navbar') %>
+
   <h1>India Famous Places</h1>
-  <ul>
+  <ul class="commonDestUL">
     <% places.forEach(place => { %>
       <li>
         <h2><%= place.name %></h2>
