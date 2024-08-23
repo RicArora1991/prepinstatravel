@@ -4,7 +4,13 @@ const PORT = 4000;
 const path = require('path');
 require('./db/conn');
 const cors=require('cors');
-app.use(cors())
+const corsConfig={
+    origin:"*",
+    credential:true,
+    method:["GET","POST","PUT","DELETE"],
+
+}
+app.use(cors(corsConfig))
 const signupRecord = require('./models/signupschema')
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
